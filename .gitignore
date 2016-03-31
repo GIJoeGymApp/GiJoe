@@ -25,6 +25,20 @@ proguard/
 # Log Files
 *.log
 
+# Android Studio
+.idea
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
 # Android Studio Navigation editor temp files
 .navigation/
 
