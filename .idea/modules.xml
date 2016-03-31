@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GI JOE.iml" filepath="$PROJECT_DIR$/GI JOE.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datastore/datastore.iml" filepath="$PROJECT_DIR$/datastore/datastore.iml" />
     </modules>
   </component>
 </project>
