@@ -24,4 +24,5 @@ dependencies {
     compile 'javax.inject:javax.inject:1'
     //firebase
     compile files('libs/backendless.jar')
+    compile project(':domain')
 }

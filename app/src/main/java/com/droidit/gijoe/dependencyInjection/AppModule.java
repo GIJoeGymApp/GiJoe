@@ -1,7 +1,8 @@
 package com.droidit.gijoe.dependencyInjection;
 
-import android.app.Application;
 import android.content.Context;
+
+import com.droidit.gijoe.GiJoeApplication;
 
 import javax.inject.Singleton;
 
@@ -14,15 +15,15 @@ import dagger.Provides;
 @Module
 public class AppModule {
 
-    Application mApplication;
+    private final GiJoeApplication mApplication;
 
-    public AppModule(Application mApplication) {
+    public AppModule(GiJoeApplication mApplication) {
         this.mApplication = mApplication;
     }
 
     @Provides
     @Singleton
     public Context provideApplicationContext() {
-        return mApplication;
+        return mApplication.getApplicationContext();
     }
 }

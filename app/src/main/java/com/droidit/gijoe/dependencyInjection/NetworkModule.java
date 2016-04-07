@@ -1,7 +1,7 @@
 package com.droidit.gijoe.dependencyInjection;
 
-import com.droidit.datastore.DefaultLoginService;
-import com.droidit.datastore.LoginService;
+import com.droidit.backendless.DefaultLoginService;
+import com.droidit.domain.login.LoginService;
 
 import dagger.Module;
 import dagger.Provides;

@@ -1,4 +1,4 @@
-package com.droidit.datastore;
+package com.droidit.backendless;
 
 import android.content.Context;
 
