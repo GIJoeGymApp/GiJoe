@@ -3,6 +3,9 @@ package com.droidit.gijoe.dependencyInjection;
 import android.app.Application;
 import android.content.Context;
 
+import com.droidit.datastore.FireBaseManager;
+import com.firebase.client.Firebase;
+
 import javax.inject.Singleton;
 
 import dagger.Module;
@@ -24,5 +27,11 @@ public class AppModule {
     @Singleton
     public Context provideApplicationContext() {
         return mApplication;
+    }
+
+    @Provides
+    @Singleton
+    public Firebase provideFireBase(FireBaseManager fireBaseManager) {
+        return fireBaseManager.ProvideFireBase();
     }
 }

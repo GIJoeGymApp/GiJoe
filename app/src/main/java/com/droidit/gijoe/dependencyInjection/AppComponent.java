@@ -3,6 +3,7 @@ package com.droidit.gijoe.dependencyInjection;
 import android.content.Context;
 
 import com.droidit.gijoe.GiJoeApplication;
+import com.firebase.client.Firebase;
 
 import javax.inject.Singleton;
 
@@ -18,4 +19,6 @@ public interface AppComponent {
     void injectApplication(GiJoeApplication giJoeApplication);
 
     Context gIContext();
+
+    Firebase fireBase();
 }
