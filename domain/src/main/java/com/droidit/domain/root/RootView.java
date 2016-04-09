@@ -5,5 +5,6 @@ package com.droidit.domain.root;
  */
 public interface RootView {
 
+    void loadCurrentListFragment();
 
 }

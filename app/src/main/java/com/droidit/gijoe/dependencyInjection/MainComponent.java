@@ -1,5 +1,6 @@
 package com.droidit.gijoe.dependencyInjection;
 
+import com.droidit.gijoe.currentlist.CurrentListFragment;
 import com.droidit.gijoe.main.RootActivity;
 
 import dagger.Component;
@@ -12,4 +13,6 @@ import dagger.Component;
 public interface MainComponent {
 
     void inject(RootActivity rootActivity);
+
+    void inject(CurrentListFragment currentListFragment);
 }

@@ -22,7 +22,7 @@ public class RootPresenter {
         this.mRootView = rootView;
     }
 
-    public void onTestButtonClicked() {
-        mLoginInteractor.registerUser();
+    public void onCreate() {
+        mRootView.loadCurrentListFragment();
     }
 }
