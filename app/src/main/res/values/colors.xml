@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="PRIMARY_COLOR_BLUE_GRAY_500">#607d8b</color>
+    <color name="PRIMARY_COLOR_BLUE_GRAY_700">#455a64</color>
+    <color name="PRIMARY_COLOR_BLUE_GRAY_800">#37474f</color>
+    <color name="ACCENT_COLOR_TEAL_200">#80cbc4</color>
+
+</resources>
