@@ -7,4 +7,8 @@ public interface RootView {
 
     void loadCurrentListFragment();
 
+    void loadWorkoutListFragment();
+
+    void setupToolbarAndMenu();
+
 }

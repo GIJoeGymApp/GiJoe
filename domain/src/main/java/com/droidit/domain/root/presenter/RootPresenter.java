@@ -23,6 +23,15 @@ public class RootPresenter {
     }
 
     public void onCreate() {
+        mRootView.setupToolbarAndMenu();
         mRootView.loadCurrentListFragment();
+    }
+
+    public void currentWorkoutMenuItemClicked() {
+        mRootView.loadCurrentListFragment();
+    }
+
+    public void workoutListMenuItemClicked() {
+        mRootView.loadWorkoutListFragment();
     }
 }

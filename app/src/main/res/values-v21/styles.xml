@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/PRIMARY_COLOR_BLUE_GRAY_500</item>
+        <item name="colorPrimaryDark">@color/PRIMARY_COLOR_BLUE_GRAY_800</item>
+        <item name="colorAccent">@color/ACCENT_COLOR_TEAL_200</item>
+        <item name="android:statusBarColor">@color/PRIMARY_COLOR_BLUE_GRAY_800</item>
+    </style>
+
+</resources>
