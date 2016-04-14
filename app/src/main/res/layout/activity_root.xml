@@ -4,34 +4,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <RelativeLayout
+            android:id="@+id/root_toolbar_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
-            <RelativeLayout
-                android:id="@+id/root_toolbar_container"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <include
-                    android:id="@+id/root_actionbar"
-                    layout="@layout/app_default_toolbar" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/root_fragment_holder"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/root_toolbar_container" />
+            <include
+                android:id="@+id/root_actionbar"
+                layout="@layout/app_default_toolbar" />
 
         </RelativeLayout>
 
-    </FrameLayout>
+        <RelativeLayout
+            android:id="@+id/root_fragment_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/root_toolbar_container" />
+
+    </RelativeLayout>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/root_navigation_view"
